@@ -1630,11 +1630,15 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 100%;
 		}
 
 		.image.fit {
 			display: block;
 			width: 100%;
+			padding-top: 100px;
+			padding-right: 25px;
+			object-fit: fill;
 		}
 
 		.image.featured {
